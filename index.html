@@ -14,7 +14,14 @@
 
   <body>
     <header class="page-header">
-      <div class="container">kots.alina@gmail.com tel. +38 099 306 38 87</div>
+      <div class="container">
+        <a class="header-email" href="mailto:kots.alina@gmail.com"
+          >kots.alina@gmail.com</a
+        >
+        <a class="header-phone" href="tel:+380993063887"
+          >tel. +38 099 306 38 87</a
+        >
+      </div>
     </header>
 
     <section class="hero-image">
@@ -27,6 +34,10 @@
     <section class="intro">
       <div class="container">
         <h2 class="subheading">Let me introduce myself</h2>
+        <figure>
+          <img src="files/user.jpg" width="928" height="536" alt="My photo" />
+        </figure>
+        >
         <h3>About me</h3>
         <p>
           Creative, enterprising and self-starting Front-End Developer with good
@@ -41,9 +52,12 @@
     <section class="portfolio">
       <div class="container">
         <h2 class="subheading">Мои работы</h2>
-
+        <figure class="project-image">
+          <img src="files/project.jpg" alt="Cайт магазина товаров для дома" />
+        </figure>
         <h3>Магазин товаров для дома</h3>
         <p>Мой первый сайт.</p>
+        <a class="button" href="source/index.html">Open page</a>
 
         <h3>Блог начинающего верстальщика</h3>
         <p>Статический блог про обучение HTML и CSS.</p>
@@ -52,7 +66,13 @@
 
     <footer class="page-footer">
       <div class="container">
-        Contacts: <br />kots.alina@gmail.com<br />tel. +38 099 306 38 87
+        Contacts: <br /><a
+          class="footer-email"
+          href="mailto:kots.alina@gmail.com"
+          >kots.alina@gmail.com</a
+        ><br /><a class="footer-phone" href="tel:+380993063887"
+          >tel. +38 099 306 38 87</a
+        >
       </div>
     </footer>
   </body>
